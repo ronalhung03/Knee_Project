@@ -1,0 +1,27 @@
+"""Constants matching Tariq et al., IEEE Access 2023."""
+
+from __future__ import annotations
+
+BASE_MODELS = ("resnet34", "vgg19", "densenet121", "densenet161")
+CLASS_NAMES = ("0", "1", "2", "3", "4")
+NUM_CLASSES = 5
+ORDINAL_LOGITS = NUM_CLASSES - 1
+
+IMAGE_SIZE = 224
+BASE_BATCH_SIZE = 28
+ENSEMBLE_BATCH_SIZE = 28
+BASE_EPOCHS = 100
+ENSEMBLE_EPOCHS = 25
+BASE_LR = 1e-4
+ENSEMBLE_LR = 1e-4
+BASE_LR_STEP = 5
+ENSEMBLE_LR_STEP = 3
+LR_GAMMA = 0.1
+
+TRAIN_RATIO = 0.7
+TEST_RATIO = 0.2
+VAL_RATIO = 0.1
+
+IMAGENET_MEAN = (0.485, 0.456, 0.406)
+IMAGENET_STD = (0.229, 0.224, 0.225)
+

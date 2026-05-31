@@ -1,0 +1,16 @@
+# Local datasets and generated training outputs
+data/
+datasets/
+paper_runs/
+paper_runs_test/
+*.pt
+*.pth
+*.h5
+
+# Python cache and local environment files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+

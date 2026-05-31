@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+scikit-learn
+pillow
+coral-pytorch
+opencv-python
+grad-cam
